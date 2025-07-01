@@ -1,41 +1,79 @@
-# SAP-samples/repository-template
-This default template for SAP Samples repositories includes files for README, LICENSE, and REUSE.toml. All repositories on github.com/SAP-samples will be created based on this template.
+# KDD 2025 Tutorial: Evaluation & Benchmarking of LLM Agents
 
-# Containing Files
+**Website:** [https://mynamem2.github.io/kdd2025LLMAgents/](https://mynamem2.github.io/kdd2025LLMAgents/)
 
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
+---
 
-2. The REUSE.toml file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the REUSE.toml in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
+## 📄 Abstract
 
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
+The rise of LLM-based agents has opened new frontiers in AI applications, yet evaluating these agents remains a complex and underdeveloped area. This tutorial provides a systematic survey of the field of LLM agent evaluation, introducing a two-dimensional taxonomy that organizes existing work along:
+- **Evaluation objectives** (what to evaluate): agent behavior, capabilities, reliability, safety
+- **Evaluation process** (how to evaluate): interaction modes, datasets and benchmarks, metric computation methods, and tooling
 
-# [Title]
-<!-- Please include descriptive title -->
+In addition, we highlight enterprise-specific challenges, such as role-based access, the need for reliability guarantees, dynamic and long-horizon interactions, and compliance. Finally, we discuss future research directions toward holistic, more realistic, and scalable evaluation of LLM agents.
 
-<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
--->
+---
 
-## Description
-<!-- Please include SEO-friendly description -->
+## 🎯 Target Audience
 
-## Requirements
+This tutorial is designed for applied and industry data scientists, machine learning engineers, and enterprise AI practitioners who build or deploy LLM-based agents in production systems. It is also relevant for academic researchers studying evaluation methodologies, multi-agent systems, and trustworthy language models. Participants will gain a systematic evaluation framework, practical hands-on code examples, and insights into real-world deployment challenges.
 
-## Download and Installation
+---
 
-## Known Issues
-<!-- You may simply state "No known issues. -->
+## 🗂️ Tutorial Agenda
 
-## How to obtain support
-[Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
- 
-For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
+- **Introduction (5 min)**
+  - Motivation and tutorial goals
+- **Taxonomy Overview (10 min)**
+  - What to evaluate and how to evaluate
+- **Evaluation Process (15 min)**
+  - Interaction modes
+  - Evaluation data
+  - Metric computation methods
+  - Evaluation tooling
+  - Evaluation contexts
+- **Evaluation Objectives (75 min)**
+  - Agent Behavior
+  - Agent Capabilities
+  - Reliability
+  - Safety & Alignment
+- **Break (10 min)**
+- **Enterprise-Specific Challenges (20 min)**
+  - Access control
+  - Reliability guarantees
+  - Dynamic & long-horizon interactions
+  - Policy and compliance
+- **Future Directions (10 min)**
+  - Holistic frameworks
+  - Scalable evaluation
+  - Realistic enterprise settings
 
-## Contributing
-If you wish to contribute code, offer fixes or improvements, please send a pull request. Due to legal reasons, contributors will be asked to accept a DCO when they create the first pull request to this project. This happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
+---
 
-## License
-Copyright (c) 2024 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
+## 👩‍💻 Authors
+
+- **Mahmoud Mohammadi** — SAP Labs 
+  *Mahmoud is a Senior AI Scientist at SAP, where his research focuses on business foundation models and agentic AI, including graph foundation models, LLM integration, and the evaluation of intelligent agents. He also has expertise in Generative Adversarial Networks (GANs) and multimodal AI systems. Previously, Mahmoud worked at Microsoft, where he contributed to developing client-side deep learning models for Windows. He holds a Ph.D. in Computer Science form university of North Carolina at Charlotte.*  
+  [mahmoud.mohammadi@sap.com](mailto:mahmoud.mohammadi@sap.com)
+
+- **Yipeng Li** — SAP Labs, Bellevue, WA, USA  
+  *Yipeng Li is a Data Scientist Expert at SAP, leading research and development in agentic AI. His work focuses on single and multi-agent systems, quality assessment, and enabling internal AI research and development through common platforms.*  
+  [yipeng.li@sap.com](mailto:yipeng.li@sap.com)
+
+- **Jane Lo** — SAP Labs, Palo Alto, CA, USA  
+  *Jane Lo is an AI Scientist at SAP, focusing on the research and development of agentic AI. She has worked on several projects in the field, focusing on the integration of enterprise tools, data, and private knowledge with agentic systems across a wide range of conversational and autonomous use cases.*  
+  [jane.lo@sap.com](mailto:jane.lo@sap.com)
+
+- **Wendy Yip** — SAP Labs, Palo Alto, CA, USA  
+  *Wendy is a Senior Data Scientist in SAP and has a background in astrophysics and spent time on machine learning \& data-intensive science research at Johns Hopkins University.*  
+  [wendy.yip@sap.com](mailto:wendy.yip@sap.com)
+
+---
+
+## 🚀 License
+
+This content is provided for educational and tutorial purposes under the SAP standard tutorial license.  
+See [SAP Legal Notices](https://www.sap.com/about/legal.html) for details.
+
+---
+

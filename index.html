@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KDD 2025 Tutorial: Evaluation & Benchmarking of LLM Agents</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; line-height: 1.6; color: #333; }
+    h1, h2, h3 { color: #004080; }
+    a { color: #0066cc; }
+    section { margin-bottom: 2rem; font-size: 1.2rem;}
+    .authors { display: flex; flex-wrap: wrap; gap: 2rem; font-size: 1.2rem;}
+    .agenda ul { font-size: 1.2rem; line-height: 2; }
+    .author-card { flex: 1 1 45%; border: 1px solid #ddd; padding: 1rem; border-radius: 8px; }
+    .taxonomy img { border: 1px solid #ccc; padding: 4px; margin-top: 1rem; width: 50%; }
+    footer { margin-top: 3rem; font-size: 0.9rem; color: #666; }
+  </style>
+</head>
+<body>
+  <h1>KDD 2025 Tutorial: Evaluation & Benchmarking of LLM Agents</h1>
+
+  <section class="abstract">
+    <h2>Abstract</h2>
+    <p>
+      The rise of LLM-based agents has opened new frontiers in AI applications, yet evaluating these agents remains a complex and underdeveloped area.
+      This tutorial provides a systematic survey of the field of LLM agent evaluation, introducing a two-dimensional taxonomy that organizes existing work along
+      <strong>(1) evaluation objectives </strong>—what to evaluate, such as agent behavior, capabilities, reliability, and safety—and
+      <strong>(2) evaluation process </strong>—how to evaluate, including interaction modes, datasets and benchmarks, metric computation methods, and tooling.
+      In addition, we highlight enterprise-specific challenges, such as role-based access to data, the need for reliability guarantees, dynamic and long-horizon interactions, and compliance.
+      Finally, we discuss future research directions toward holistic, more realistic, and scalable evaluation of LLM agents.
+    </p>
+  </section>
+
+  <section class="audience">
+    <h2>Target Audience</h2>
+    <p>
+      This tutorial is designed for applied and industry scientists, machine learning engineers, and enterprise AI practitioners who build or deploy LLM-based agents in production systems. It is also relevant for academic researchers studying evaluation methodologies, multi-agent systems, and trustworthy language models. Participants will gain a systematic evaluation framework, practical hands-on code examples, and insights into real-world deployment challenges.
+    </p>
+  </section>
+
+  
+  <section class="agenda">
+    <h2>Presentation Agenda</h2>
+    <ul>
+      <li><strong>Introduction (5 min)</strong>
+        <ul>
+          <li>Motivation and tutorial goals</li>
+        </ul>
+      </li>
+      <li><strong>Taxonomy Overview (10 min)</strong>
+        <ul>
+          <li>What to evaluate and how to evaluate</li>
+        </ul>
+      </li>
+      <li><strong>Evaluation Process (15 min)</strong>
+        <ul>
+          <li>Interaction modes</li>
+          <li>Evaluation data</li>
+          <li>Metric computation methods</li>
+          <li>Evaluation tooling</li>
+          <li>Evaluation contexts</li>
+        </ul>
+      </li>
+      <li><strong>Evaluation Objectives (110 min)</strong>
+        <ul>
+          <li>Agent Behavior</li>
+          <li>Agent Capabilities</li>
+          <li>Reliability</li>
+          <li>Safety & Alignment</li>
+        </ul>
+      </li>
+      <li><strong>Break (10 min)</strong></li>
+      <li><strong>Enterprise-Specific Challenges (20 min)</strong>
+        <ul>
+          <li>Access control</li>
+          <li>Reliability guarantees</li>
+          <li>Dynamic & long-horizon interactions</li>
+          <li>Policy and compliance</li>
+        </ul>
+      </li>
+      <li><strong>Future Directions (10 min)</strong>
+        <ul>
+          <li>Holistic frameworks</li>
+          <li>Scalable evaluation</li>
+          <li>Realistic enterprise settings</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+<section class="authors">
+  <h2>Authors</h2>
+  <ul>
+    <li>
+      <strong>Mahmoud Mohammadi</strong> — SAP Labs, Bellevue, WA, USA  
+      <br><a href="mailto:mahmoud.mohammadi@sap.com">mahmoud.mohammadi@sap.com</a>  
+      <br><em>Mahmoud is a Senior AI Scientist at SAP with a Ph.D. in Computer Science from the University of North Carolina at Charlotte. He has extensive experience in AI research and software engineering, specializing in Generative AI and foundation models.  His work at SAP focuses on agentic AI and business foundation models, including graph foundation models, LLM integration, and AI agent evaluation. He also has expertise in Generative Adversarial Networks (GANs) and multi-modal AI systems. Previously, he worked at Microsoft, where he contributed to the development of efficient client-side deep learning models for Windows.</em>
+    </li>
+    <li>
+      <strong>Yipeng Li</strong> — SAP Labs, Bellevue, WA, USA  
+      <br><a href="mailto:yipeng.li@sap.com">yipeng.li@sap.com</a>  
+      <br><em>Yipeng Li is a Data Scientist Expert at SAP, leading research and development in agentic AI. His work focuses on single and multi-agent systems, quality assessment, and enabling internal AI research and development through common platforms. Before SAP, he worked at Microsoft on Office Copilot and at Facebook on large-scale machine learning projects. He holds a Ph.D. in Computer Science from The Ohio State University. His expertise includes prompt engineering, agentic systems development and evaluation, and machine learning algorithms and techniques.
+</em>
+    </li>
+    <li>
+      <strong>Jane Lo</strong> — SAP Labs, Palo Alto, CA, USA  
+      <br><a href="mailto:jane.lo@sap.com">jane.lo@sap.com</a>  
+      <br><em>Jane Lo is an AI Scientist at SAP, focusing on the research and development of agentic AI. She has worked on several projects in the field, focusing on the integration of enterprise tools, data, and private knowledge with agentic systems across a wide range of conversational and autonomous use cases. Her expertise includes multi-agent system development, agentic system evaluation, and synthetic data generation for conversational use cases. She received the B.S. and B.A. degrees in Industrial Engineering \& Operations Research and Data Science from the University of California, Berkeley, in 2023.
+</em>
+    </li>
+    <li>
+      <strong>Wendy Yip</strong> — SAP Labs, Palo Alto, CA, USA  
+      <br><a href="mailto:wendy.yip@sap.com">wendy.yip@sap.com</a>  
+      <br><em>Wendy is a Senior Data Scientist in SAP and has a background in astrophysics and spent time on machine learning \& data-intensive science research at Johns Hopkins University. She then joined several Bay Area start-ups, contributed to building an AI-enabled home security camera, and a business process discovery bot. She is now working at SAP on agent-based systems, knowledge graphs, and other AI topics.</em>
+
+    </li>
+  </ul>
+</section>
+
+</body>
+</html>
