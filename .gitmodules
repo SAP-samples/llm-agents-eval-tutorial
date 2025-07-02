@@ -1,0 +1,3 @@
+[submodule "datasets/healthcare"]
+	path = datasets/healthcare
+	url = https://github.com/AI-in-Health/ClinicBench.git
