@@ -1,7 +1,5 @@
 # KDD 2025 Tutorial: Evaluation & Benchmarking of LLM Agents
 
-**Website:** [https://mynamem2.github.io/kdd2025LLMAgents/](https://mynamem2.github.io/kdd2025LLMAgents/)
-
 ---
 
 ## 📄 Abstract
@@ -37,7 +35,6 @@ This tutorial is designed for applied and industry data scientists, machine lear
   - Agent Capabilities
   - Reliability
   - Safety & Alignment
-- **Break (10 min)**
 - **Enterprise-Specific Challenges (20 min)**
   - Access control
   - Reliability guarantees
