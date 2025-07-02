@@ -67,10 +67,9 @@ This tutorial is designed for applied and industry data scientists, machine lear
 
 ---
 
-## 🚀 License
+## License
 
-This content is provided for educational and tutorial purposes under the SAP standard tutorial license.  
-See [SAP Legal Notices](https://www.sap.com/about/legal.html) for details.
+Copyright (c) 2025 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
 
 ---
 
