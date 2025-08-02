@@ -10,6 +10,8 @@ The rise of LLM-based agents has opened new frontiers in AI applications, yet ev
 
 In addition, we highlight enterprise-specific challenges, such as role-based access, the need for reliability guarantees, dynamic and long-horizon interactions, and compliance. Finally, we discuss future research directions toward holistic, more realistic, and scalable evaluation of LLM agents.
 
+You can read the pre-print [here](https://arxiv.org/abs/2507.21504).
+
 ---
 
 ## 🎯 Target Audience
