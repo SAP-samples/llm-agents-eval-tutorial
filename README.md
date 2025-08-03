@@ -24,15 +24,15 @@ This tutorial is designed for applied and industry data scientists, machine lear
 
 - **Introduction (5 min)**
   - Motivation and tutorial goals
-- **Taxonomy Overview (10 min)**
+- **Taxonomy Overview (5 min)**
   - What to evaluate and how to evaluate
-- **Evaluation Process (15 min)**
+- **Evaluation Process (25 min)**
   - Interaction modes
   - Evaluation data
   - Metric computation methods
   - Evaluation tooling
   - Evaluation contexts
-- **Evaluation Objectives (75 min)**
+- **Evaluation Objectives (90 min)**
   - Agent Behavior
   - Agent Capabilities
   - Reliability
@@ -42,10 +42,11 @@ This tutorial is designed for applied and industry data scientists, machine lear
   - Reliability guarantees
   - Dynamic & long-horizon interactions
   - Policy and compliance
-- **Future Directions (10 min)**
+- **Future Directions (5 min)**
   - Holistic frameworks
   - Scalable evaluation
   - Realistic enterprise settings
+  - Time & cost bounded protocols
 
 ---
 
